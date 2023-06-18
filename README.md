@@ -1,4 +1,4 @@
-# XPSC Problem Solving Club Update
+# XPSC Problem Solving Club
 
 
 ## Sheet Link
