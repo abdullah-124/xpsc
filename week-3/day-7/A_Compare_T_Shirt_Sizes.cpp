@@ -16,6 +16,7 @@ void solve(){
     }
     else if(ca == cb){
         if(a.size()>b.size())cout<<">"<<endl;
+        else cout<<"<"<<endl;
     }
     else {
         if(ca>cb)cout<<"<"<<endl;

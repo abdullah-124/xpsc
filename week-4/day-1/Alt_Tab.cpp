@@ -12,7 +12,7 @@ void solve(){
     ll mx = 0;
     int i=0,j=0;
     while(i<c and j < o){
-        mx += min(car[i] , power[j] * h);
+        mx += min(car[i] , otl[j] * h);
         i++,j++;
     }
     
