@@ -11,25 +11,28 @@ void solve(){
     ll seg_sum = 0;
     for(int i=0;i<n;i++){
         seg_sum += a[i];
-        ll sum = 0;
         int len = 0, mxLen = i+1;
+        ll sum = 0;
+        int cnt = 1;
         bool possible = false;
-        for(int j=i+1;j<=n;j++){
-            if(j==n){
-                if(sum == seg_sum)possible = true;
-                break;
-            }
-            if(sum+a[j] > seg_sum)break;
-            if(sum = seg_sum){
-                mxLen = max(len,mxLen);
-                sum = 0;
-                len = 0;
-            }
+        for(int j=i+1;j<n;j++){
             sum += a[j];
             len++;
+            if(sum == seg_sum){
+                if(j==n-1)possible=true;
+                mxLen = max(mxLen,len);
+                len = 0;
+                cnt++;
+                sum = 0;
+            }
         }
-        if(possible) ans = min(ans,mxLen);
+        //cout<<"for "<<seg_sum<<"->"<<mxLen<<endl;
+        if(possible) {
+            ans = min(ans,mxLen);
+            //cout<<"ans-> "<<ans<<endl;
+        }
     }
+    //cout<<"--------------\n";
     cout<<ans<<endl;
 }
 int main(){
