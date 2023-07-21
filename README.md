@@ -7,4 +7,5 @@
 * [Week-3](https://docs.google.com/spreadsheets/d/1iC31EK2a_-8bGmIU20JVkUoWBulmGumZdF08cleBcKE/edit?usp=sharing)
 * [Week-4](https://docs.google.com/spreadsheets/d/1iC31EK2a_-8bGmIU20JVkUoWBulmGumZdF08cleBcKE/edit?usp=sharing)
 * [Week-5](https://docs.google.com/spreadsheets/d/1hHWnNu-IZgD4hOj-bfJvxHkmzwsMRcCuAjykmZJ-b4o/edit?usp=sharing)
-* [Week-5](https://docs.google.com/spreadsheets/d/1wbXMCUZ1j4KShjTqKPsV4SujtG_7qTfNio7YEeveiVM/edit?usp=sharing)
+* [Week-6](https://docs.google.com/spreadsheets/d/1wbXMCUZ1j4KShjTqKPsV4SujtG_7qTfNio7YEeveiVM/edit?usp=sharing)
+* [Week-7](https://docs.google.com/spreadsheets/d/1TEJG0GNWmK87hVPE9Zcmzs_HO8fcubMIQZORSwtnbwI/edit?usp=sharing)
