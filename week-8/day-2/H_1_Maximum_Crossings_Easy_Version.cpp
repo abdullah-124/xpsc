@@ -10,7 +10,7 @@ void solve(){
     int n;    cin>>n;
     int t;  
     pbds<int>st;
-    int ans = 0;
+    ll ans = 0;
     for(int i=0;i<n;i++){
         cin>>t;
         st.insert(t);
