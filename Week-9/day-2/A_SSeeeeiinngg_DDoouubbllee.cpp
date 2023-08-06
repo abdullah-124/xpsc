@@ -4,12 +4,16 @@
 using namespace std;
 
 void solve(){
-    int n;    cin>>n;
-    int k;  cin>>k;
-    for(int i=0;i<n;i++){
-        if(i&1)cout<<i / 2 + 1<<" ";
-        else cout<<n - i/2<<" ";
+    string s;   cin>>s;
+    int n = s.size();
+    char a[2*n];
+    int l=0,r=2*n-1,i=0;
+    while(i<n){
+        a[l] = s[i];
+        a[r] = s[i];
+        l++,r--,i++;
     }
+    for(int i=0;i<n*2;i++)cout<<a[i];
     cout<<endl;
 }
 int main(){

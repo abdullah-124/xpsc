@@ -5,12 +5,13 @@ using namespace std;
 
 void solve(){
     int n;    cin>>n;
-    int k;  cin>>k;
-    for(int i=0;i<n;i++){
-        if(i&1)cout<<i / 2 + 1<<" ";
-        else cout<<n - i/2<<" ";
+    int ans = n/2+n%2;
+    int l=1,r=3*n;
+    cout<<ans<<endl;
+    while(l<r){
+        cout<<l<<" "<<r<<'\n';
+        l+=3,r-=3;
     }
-    cout<<endl;
 }
 int main(){
     fastread()
