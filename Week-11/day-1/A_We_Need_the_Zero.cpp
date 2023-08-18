@@ -2,15 +2,16 @@
 #define fastread() {ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);}
 #define ll long long
 using namespace std;
-const int mod = 1e9+7;
+
 void solve(){
-    ll n;    cin>>n;
-    ll ans = 1;
-    for(ll i=3;i<=(ll)2*n;i++){
-        ans  = (ans * i)%mod;
+    int n;    cin>>n;
+    int xr = 0;
+    for(int i=0;i<n;i++){
+        int t;  cin>>t;
+        xr = xr^t;
     }
-    //ans = ans >> 1;
-    cout<<ans<<endl;
+    if(n%2==0 and xr !=0)cout<<-1<<endl;
+    else cout<<xr<<endl;
 }
 int main(){
     fastread()
