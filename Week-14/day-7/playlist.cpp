@@ -7,13 +7,22 @@ void solve(){
     int a[n];
     int cnt = 0;
     for(int i=0;i<n;i++)cin>>a[i];
-    for(int i=0;i<n;i++){
-        set<int>st;
-        int j=i;
-        while(st.count(a[j])==0 and j<n)st.insert(a[j]),j++;
-        cnt = max(cnt, (j-i));
+    map<int,int>mp;
+    int i=0,j=0,mx=0;
+    while(j<n){
+        if(mp.find(a[j])==mp.end() or mp[a[j]]==0){
+            mp[a[j]]++;
+            cnt++;
+            mx = max(cnt,mx);
+            j++;
+        }
+        else {
+            cnt--;
+            mp[a[i]]--;
+            i++;
+        }
     }
-    cout<<cnt<<endl;
+    cout<<mx<<endl;
 }
 int main(){
     ios_base::sync_with_stdio(false);
