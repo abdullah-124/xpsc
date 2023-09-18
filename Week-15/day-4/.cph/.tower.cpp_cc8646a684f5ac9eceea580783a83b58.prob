@@ -1,0 +1,1 @@
+{"name":"Local: tower","url":"d:\\xpsc\\Week-15\\day-4\\tower.cpp","tests":[{"id":1695044508571,"input":"5\n3 8 2 1 5","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\xpsc\\Week-15\\day-4\\tower.cpp","group":"local","local":true}
